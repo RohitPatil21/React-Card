@@ -4,27 +4,36 @@
     box-sizing: border-box;
 }
 
-.card-wrapper {
-    background-color: #80808013;
-    min-width: 35rem;
-    max-width: 35rem;
-    min-height: 18rem;
-    max-height: 18rem;
-    margin: auto;
-    box-shadow: 0px 0px 5px black;
-    overflow: scroll;
+.image {
+    width: 31vw;
+    height: 25vh;
 }
 
-.card-heading {
-    text-align: center;
-    box-shadow: 0px 0px 2px rgb(31, 31, 31);
-    padding: 5px;
-    background-color: rgb(201, 91, 226);
-    position: sticky;
-    top: 0;
-    left: 0;
+.card {
+    width: 31vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
-.card-body {
-    text-align:justify;
+.heading {
+    opacity: 70%;
+}
+
+.news {
+    margin-top: 10px;
+    text-align: justify;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.game_name {
+    border-left: 4px solid rgb(197, 197, 1);
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    opacity: 90%;
+    padding-left: 1rem;
+    position: absolute;
+    bottom: 0;
 }

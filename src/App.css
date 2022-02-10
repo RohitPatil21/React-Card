@@ -38,11 +38,25 @@
 }
 
 
-.card-container {
+.card-wrapper {
   display: flex;
-  flex-direction: row;
-  gap: 3vw;
-  margin: 1rem;
-  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2vw;
+  align-items: center;
+  width: 100vw;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  margin:10rem auto;
+}
+
+.title {
+  border-left: 4px solid rgb(209, 209, 7);
+  margin-left: 1.4rem;
+  margin-bottom: 1rem;
+  padding-left: 10px;
+  opacity: 80%;
+  letter-spacing: 2px;
+}
